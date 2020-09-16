@@ -73,6 +73,13 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.vladfaust.unitywakatime": {
+      "version": "https://github.com/vladfaust/unity-wakatime.git#package",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "package"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
