@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Title : MonoBehaviour
 {
@@ -9,10 +10,8 @@ public class Title : MonoBehaviour
     {
         Debug.Log("Press Start!");
         if (!firstPush) {
-            Debug.Log("Go Next Scene!");
-            //ここに次のシーンへいく命令を書く
-
-            //
+            Debug.Log("gameシーンへ遷移");
+            SceneManager.LoadScene("game");
             firstPush = true;
         }
     }
